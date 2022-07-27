@@ -1,0 +1,25 @@
+{
+    "private": true,
+    "scripts": {
+        "build": "nuxt build",
+        "dev": "nuxt dev",
+        "generate": "nuxt generate",
+        "preview": "nuxt preview"
+    },
+    "devDependencies": {
+        "@iconify-json/carbon": "^1.1.7",
+        "@nuxtjs/color-mode": "^3.1.4",
+        "@unocss/nuxt": "^0.44.7",
+        "@vueuse/nuxt": "^8.9.4",
+        "nuxt": "3.0.0-rc.6",
+        "prisma": "^4.1.0"
+    },
+    "dependencies": {
+        "@prisma/client": "^4.1.0",
+        "bcrypt": "^5.0.1",
+        "uuid": "^8.3.2"
+    },
+    "prisma": {
+        "schema": "server/database/schema.prisma"
+    }
+}
